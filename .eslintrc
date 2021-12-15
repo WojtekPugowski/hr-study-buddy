@@ -3,9 +3,10 @@
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": [
-      "error",
+      "warn",
       {
-        "singleQuote": true
+        "singleQuote": true,
+        "printWidth": 150
       }
     ]
   },
